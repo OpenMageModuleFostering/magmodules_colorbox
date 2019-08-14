@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * Magmodules (www.magmodules.eu)
+ *
+ * @author     MagModules
+ * @package    Magmodules_Colorbox
+ * @copyright  Copyright (c) 2013 Magmodules
+ */
+ -->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+					<system>
+                        <children>
+                            <config>
+                                <children>
+                                    <colorbox translate="title" module="colorbox">
+                                        <title>Colorbox</title>
+                                    </colorbox>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl> 
+</config>

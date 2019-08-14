@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<!-- 
+/**
+ * Magmodules (www.magmodules.eu)
+ *
+ * @author     MagModules
+ * @package    Magmodules_Colorbox
+ * @copyright  Copyright (c) 2013 Magmodules
+ */
+ -->
+<config>
+    <modules>
+        <Magmodules_Colorbox>
+            <version>1.0.0.1</version>
+        </Magmodules_Colorbox>
+    </modules>
+    <frontend>
+		<layout>
+            <updates>
+                <magmodules_colorbox>
+                    <file>magmodules/colorbox/colorbox.xml</file>
+                </magmodules_colorbox>
+            </updates>
+        </layout>   
+    </frontend>
+    <global>
+        <blocks>
+            <colorbox>
+                <class>Magmodules_Colorbox_Block</class>
+            </colorbox>
+        </blocks>
+        <models>
+            <colorbox>
+                <class>Magmodules_Colorbox_Model</class>
+            </colorbox>
+        </models>
+        <helpers>
+            <colorbox>
+                <class>Magmodules_Colorbox_Helper</class>
+            </colorbox>
+        </helpers>
+    </global>
+    <frontend>
+        <translate>
+            <modules>
+                <Magmodules_Colorbox>
+                    <files>
+                        <default>Magmodules_Colorbox.csv</default>
+                    </files>
+                </Magmodules_Colorbox>
+            </modules>
+        </translate>
+    </frontend>
+    <adminhtml>
+        <translate>
+            <modules>
+                <Magmodules_Colorbox>
+                    <files>
+                        <default>Magmodules_Colorbox.csv</default>
+                    </files>
+                </Magmodules_Colorbox>
+            </modules>
+        </translate>
+    </adminhtml>
+    <default>
+        <colorbox>
+			<settings>
+				<enabled>0</enabled>
+				<jquery>google</jquery>
+				<theme>theme1</theme>
+				<size_main>265_265</size_main>
+				<size_popup>500_500</size_popup>
+				<size_thumb>60_60</size_thumb>	         
+			</settings>
+        </colorbox>
+    </default>
+</config>

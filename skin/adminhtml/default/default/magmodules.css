@@ -1,0 +1,15 @@
+h3.mm-moduleheader {
+	background: url("images/magmodules/logo.png") no-repeat scroll 4px 0 transparent;
+	padding: 18px 0 2px 160px;
+	height: 25px;
+	color: #525252;
+}
+
+p.mm-info {
+	border: 1px solid #ccc;
+	padding: 5px;
+}	
+
+a.magtooltip span {display:none; padding:2px 3px; margin-left:8px; width:250px;}
+a.magtooltip:hover span{display:inline; position:absolute; background:#ffffff; border:1px solid #cccccc; color:#6c6c6c;}
+.magtooltip hr { height:1px; border: 1px dotted #606; }
