@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 Colorbox plugin for Magento
