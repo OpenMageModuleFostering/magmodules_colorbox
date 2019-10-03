@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Magmodules_Colorbox",
+    "name": "OpenMageModuleFostering\/Magmodules_Colorbox",
     "type": "magento-module",
     "license": "GPL",
     "homepage": "",
     "description": "Colorbox plugin for Magento",
     "authors": [
-    {
-        "name": "Magmodules",
-        "email": "info@magmodules.eu"
-    }
-],
+        {
+            "name": "Magmodules",
+            "email": "info@magmodules.eu"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
